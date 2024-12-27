@@ -107,7 +107,9 @@ button {
     font-size: 30px;
     padding: 10px;
     cursor: pointer;
+    transition: 1s;
 }
+
 
 .prev {
     left: 10px;
@@ -126,29 +128,42 @@ button {
 #contact form {
     max-width: 600px;
     margin: 0 auto;
+
 }
+
+
 
 #contact input,
 #contact textarea {
+    background-color: rgba(12, 12, 151, 0.115);
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-    border-radius: 5px;
+    border-radius: 15px;
+    border-color: #1400cc4a;
 }
+::placeholder{
 
+    font-family: sans-serif;
+    font-size:smaller;
+    font-weight: 700;
+    color: rgb(16, 6, 70);
+}
 .submit-btn {
     background-color: #0066cc;
-    color: white;
-    border: none;
+    color:  rgb(0, 0, 0);
     padding: 10px 20px;
     font-size: 16px;
+    font-weight: 400;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 15px;
+   
 }
 
 footer {
+
     text-align: center;
-    background-color: #333;
+    background-color: #29127c;
     color: white;
     padding: 20px;
 }
